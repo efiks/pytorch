@@ -1603,3 +1603,7 @@ TEST_F(FunctionalTest, PoissonNLLLoss) {
     F::poisson_nll_loss(input, target,
     PoissonNLLLossOptions().reduction(torch::kMean))));
 }
+
+TEST_F(FunctionalTest, BCEWithLogitsLoss) {
+  // TODO
+}
